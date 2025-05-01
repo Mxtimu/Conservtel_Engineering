@@ -184,7 +184,8 @@ html {
 }
 .services h3{
   color: #278CF5;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+
   font-size: 1.3rem;
 }
 .section-divider{
@@ -217,6 +218,32 @@ html {
   margin: 0 auto;
   line-height: 1.6;
 
+}
+@media (min-width: 768px) {
+  .service-block{
+    display: flex;                /* Turns each item into a flex container */
+    align-items: flex-start;     /* Aligns items to the top */
+    gap: 2rem; 
+  }
+  .service-image {
+    flex: 1;                      /* Takes up 1 part of the space */
+  }
+  .service-image img {
+    width: 100%;                  /* Makes image responsive within its container */
+    border-radius: 5px;           /* Slightly rounds the image corners */
+    max-width: 400px;             /* Limits image width so it's not too large */
+  }
+  .service-text {
+    flex: 2;                      /* Takes up 2 parts of the space, more than image */
+  }
+  .service-text p {
+    font-size: 1rem;              /* Normal paragraph font size */
+    margin-bottom: 1rem;          /* Space between paragraphs */
+  }
+  .section-divider{
+    margin-bottom: 4rem; 
+    margin-top: 1rem;
+  }
 }
 .contact-banner{
   position: relative;
