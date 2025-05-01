@@ -14,6 +14,13 @@ html {
     background-color:#DEDEDE;
     padding: 1rem 0;
     border-bottom: 1px solid #e0e0e0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
     
     
   }
@@ -45,6 +52,10 @@ html {
     line-height: 1.2;
     font-size: 1rem;
     text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .logo:hover {
+    transform: scale(1.05);
   }
   .black-logo{
     color: black;
@@ -125,7 +136,10 @@ html {
     margin-right: 5px;
    
   } */
-
+  .menu a:hover {
+    color: #3498db;
+    transform: translateX(5px);
+  }
   /*Hero section*/
   .hero{
   position: relative;
@@ -138,7 +152,7 @@ html {
 .hero-img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:fill;
 }
 
 .hero-text{
