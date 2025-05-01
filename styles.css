@@ -363,5 +363,87 @@ html {
 .footer-section a:hover{
   color: #278CF5;
 }
+/* Medium Screens (Tablets) */
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer h2 {
+    width: 100%;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    text-align: left;
+    padding: 0 1rem;
+  }
+}
 
+/* Large Screens (Desktops) */
+@media (min-width: 1024px) {
+  .footer {
+    padding: 3rem 2rem;
+  }
+  
+  .footer h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  .footer-section p, 
+  .footer-section a {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Large Screens (TVs) */
+@media (min-width: 1600px) {
+  .footer-container {
+    max-width: 1600px;
+    padding: 0 4rem;
+  }
+  
+  .footer {
+    padding: 4rem;
+  }
+  
+  .footer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 2rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section p, 
+  .footer-section a {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Optional: Add decorative elements for very large screens */
+  .footer::before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100px;
+    background: #e74c3c; /* Accent color */
+    margin: 0 auto 3rem;
+  }
+}
 /* extra section */
