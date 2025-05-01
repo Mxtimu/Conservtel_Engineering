@@ -245,6 +245,33 @@ html {
     margin-top: 1rem;
   }
 }
+@media (min-width: 1600px) {
+  .services-container {
+    max-width: 1600px;
+  }
+  
+  .services {
+    padding: 4rem;
+  }
+  
+  .service-block {
+    gap: 3rem;
+  }
+  
+  .service-title {
+    font-size: 3rem;
+  }
+  
+  .service-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Optional: Limit text line length for better readability */
+  .service-text {
+    max-width: 800px;
+  }
+}
 .contact-banner{
   position: relative;
   background-image: url(./assets/images/beautiful-optical-fiber-detail.jpg);
