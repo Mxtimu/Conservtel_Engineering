@@ -265,6 +265,49 @@ html {
   background-color: #1c6dd3;
 }
 
+/* footer section */
+.footer {
+  background-color: #ccc; /* Match screenshot */
+  padding: 2rem 1rem;
+  text-align: center;
+}
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.footer h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section {
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section p {
+  margin: 0;
+  line-height: 1.5;
+  text-decoration: underline;
+  font-weight: bold;
   
+
+}
+
+.footer-section a {
+  color: #333333;
+  font-weight: bold;
+
+}
+.footer-section a:hover{
+  color: #278CF5;
+}
+
+/* extra section */
