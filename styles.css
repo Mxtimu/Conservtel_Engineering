@@ -38,7 +38,7 @@ html {
 
   }
   
-  .logo {
+  /* .logo {
     height: 50px;
     width: auto;
     display: flex;
@@ -60,7 +60,24 @@ html {
   }
   .black-logo{
     color: black;
-  }
+  } */
+  .logo-container {
+    display: flex;
+    justify-content: center; /* or 'flex-start' for left alignment */
+    padding: 0.5px;
+}
+
+.logo-image {
+    max-width: 100px; /* adjust based on your image size */
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo-image {
+        max-width: 150px;
+    }
+}
   .nav-bar {
     width: 100%;
     display: flex;
@@ -491,12 +508,12 @@ html {
 }
 
 /* contact form section */
-/* CSS */
+
 .contact-form-section {
   max-width: 600px;
   margin: 2rem auto;
   padding: 2rem;
-  background: #fff;
+  background: #333333;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
@@ -504,7 +521,7 @@ html {
 .contact-form-section h2 {
   text-align: center;
   margin-bottom: 2rem;
-  color: #2c3e50;
+  color: #fff;
   font-size: 1.8rem;
 }
 
