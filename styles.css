@@ -217,6 +217,13 @@ html {
 
 .service-block{
   margin-bottom: 3rem;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.service-block.visible{
+  opacity: 1;
+  transform: none;
 }
 .service-block img{
   width: 100%;
