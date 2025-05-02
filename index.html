@@ -129,6 +129,42 @@
         </div>
       </footer>
 
+      <!-- contact form section  -->
+       
+     <!-- HTML -->
+<section class="contact-form-section">
+    <form id="contact-form" action="https://formsubmit.co/geetanshu@conservtel.com" method="POST">
+      <h2>Get in Touch</h2>
+      
+      <div class="form-group">
+        <input type="text" name="name" placeholder=" " required>
+        <label>Your Name</label>
+      </div>
+      
+      <div class="form-group">
+        <input type="email" name="email" placeholder=" " required>
+        <label>Your Email</label>
+      </div>
+      
+      <div class="form-group">
+        <textarea name="message" placeholder=" " required></textarea>
+        <label>Your Message</label>
+      </div>
+      
+      <input type="hidden" name="_subject" value="New message from Conservtel website">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+      
+      <button type="submit" class="submit-btn">
+        <span class="btn-text">Send Message</span>
+        <span class="btn-icon">→</span>
+      </button>
+      
+      <div id="form-status" class="status-message"></div>
+    </form>
+  </section>
+    
+
       <button id="backToTopBtn" title="Go to top">&#8593;</button>
       
       <script src="/script.js"></script>
