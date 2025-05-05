@@ -313,7 +313,7 @@ html {
 }
 .contact-banner{
   position: relative;
-  background-image: url(./assets/images/beautiful-optical-fiber-detail.jpg);
+  background-image: url(/beautiful-optical-fiber-detail.jpg);
   background-size: cover;
   background-position: center;
   color: white;
